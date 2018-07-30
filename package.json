@@ -1,6 +1,6 @@
 {
   "name": "express-session-affinity",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An express middleware to set cookies for Session Affinity on scaled express servers.",
   "repository": {
     "type": "git",
