@@ -1,0 +1,22 @@
+{
+  "name": "express-session-affinity",
+  "version": "1.0.0",
+  "description": "An express middleware to set cookies for Session Affinity on scaled express servers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha",
+    "lint": "node_modules/.bin/eslint index.js test lib",
+    "coverage": "node_modules/.bin/istanbul cover node_modules/mocha/bin/_mocha -- -R spec"
+  },
+  "author": "Edward Compton",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^5.2.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^5.2.0",
+    "sinon": "^6.1.4"
+  },
+  "dependencies": {
+    "uuid": "^3.3.2"
+  }
+}
