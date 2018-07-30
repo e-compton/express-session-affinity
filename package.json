@@ -2,6 +2,10 @@
   "name": "express-session-affinity",
   "version": "1.0.0",
   "description": "An express middleware to set cookies for Session Affinity on scaled express servers.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/e-compton/express-session-affinity.git"
+  },
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha",
